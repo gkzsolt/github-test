@@ -1,0 +1,58 @@
+/**
+ * Author: Zsolt Gere Kiss
+ */
+ 
+body {
+  background-color: #C3D5AB;
+  font-family: Arial, Sans-serif;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #4D642C;
+}
+
+h2 .logo {
+  color: #990099;
+  font-size: 36px;
+}
+
+.search_page .meta {
+  font-size: 14px;
+}
+
+.searchlist {
+  width: 800px;
+  background-color: white;
+  margin: 1em 0;
+  padding: 12px;
+  padding-top: 3px;
+}
+
+.searchitem {
+  margin-top: 12px;
+}
+
+.searchitem .name {
+  font-family: Tahoma, Geneva, Sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: green;
+}
+
+.searchitem .name:hover {
+  text-decoration: underline;
+}
+
+.searchitem .link {
+  font-size: 13px;
+  font-style: italic;
+  color: #545454;
+  margin-top: 2px;
+}
+
+.searchitem .description {
+  font-size: 15px;
+  color: #545454;
+  margin-top: 2px;
+}
