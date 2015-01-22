@@ -22,6 +22,7 @@ After installing Composer, go to your project directory and run:
 <code>
   $ php composer.phar install
 </code>
+
 if you installed it locally, or
 
 <code>
