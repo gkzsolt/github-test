@@ -37,7 +37,7 @@ for a global install. This command will download all libraries the app depends o
 
 For the sake of the example, suppose that your project folder is "github-test", placed in the web server document root.
 
-Well, just direct your browser to http://localhost/github-test/index.php, and (hopefully) you'll get a page asking for a keyword to search for ;)
+Well, just direct your browser to http://localhost/github-test/index.php , and (hopefully) you'll get a page asking for a keyword to search for ;)
 
 Note: the app shows the number of results found, but displays only the first 20 repositories.
 
