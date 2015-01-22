@@ -18,11 +18,12 @@ The next step is to download this project. You can do this via Git clone or the 
 Composer is needed to install the additional components the app requires ;) To install it, go to https://getcomposer.org/doc/00-intro.md#system-requirements and follow the instructions for your platform. You'll have the choice of installing it locally, to the project just created or globally.
 
 After installing Composer, go to your project directory and run:
+
 <code>
   $ php composer.phar install
 </code>
-
 if you installed it locally, or
+
 <code>
   $ composer install
 </code>
