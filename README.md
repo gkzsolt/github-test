@@ -13,6 +13,8 @@ Note: you will need at least PHP version 5.4 for this app (the latest PHP versio
 
 The next step is to download this project. You can do this via Git clone or the "Download ZIP" button, in which latter case you have to unzip it into a project directory.
 
+The project directory MUST BE inside your web server Document Root folder, otherwise the web server won't find it. The default values for this are <APACHE_HOME>\htdocs on Windows and /var/www/html/ on Linux, but you can override this in the Apache configuration file.
+
 ## Installing Composer
 
 Composer is needed to install the additional components the app requires ;) To install it, go to https://getcomposer.org/doc/00-intro.md#system-requirements and follow the instructions for your platform. You'll have the choice of installing it locally, to the project just created or globally.
@@ -33,7 +35,9 @@ for a global install. This command will download all libraries the app depends o
 
 ## Running the application
 
-Well, just direct your browser to http://localhost/github-test/index.php, and (hopefully) you'll get a page asking for a keyword to search for. 
+For the sake of the example, suppose that your project folder is "github-test", placed in the web server document root.
+
+Well, just direct your browser to http://localhost/github-test/index.php, and (hopefully) you'll get a page asking for a keyword to search for ;)
 
 Note: the app shows the number of results found, but displays only the first 20 repositories.
 
